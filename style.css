@@ -1,14 +1,37 @@
+
+* {
+    box-sizing: border-box;
+   }
+   
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+   }
+   
+.container{
+    width:520px;
+    height: auto;
+    min-height:100px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+   }
+
 .block{
  width: 135px;
  padding: 5px 20px;
  margin-left: 20px;
  display: inline-block;
- float: left;
+ float: none;
 }
 
 .title{
  font-size: 20px;
- text-align: left;
+ text-align: center;
  font-family: sans-serif;
  font-weight: normal;
  line-height: 0.5;
@@ -24,14 +47,36 @@ input[type=text] {
  min-height: 50px;
  border: 2px solid #121213;
  padding: 12px;
- background-color: #f7f1f1;
+ background-color: #ffffff;
  border-radius: 2px;
  color: #1073d0;
- font-size: 17px;
+ font-size: 32px;
 }
 
 input[type=text]:focus{
  background-color: #ffffff;
  border: 2px solid orange;
  outline: none;
+}
+input[type=button]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #0761b6;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+   }
+   
+input[type=button]:hover{
+    background-color: #003669;
+}
+
+#age{
+    text-align: center;
+    font-size: 32px;
 }
